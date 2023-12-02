@@ -89,7 +89,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('hero-container')}
-              className="cool-button  text-gray-50 transition-all rounded-full"
+              className="cool-button  text-gray-50 transition-all"
             >
               <FontAwesomeIcon icon={faHouse} /> <p>Home</p>
             </button>
@@ -97,7 +97,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('aboutme-container')}
-              className="cool-button text-gray-50 transition-all rounded-full"
+              className="cool-button text-gray-50 transition-all"
             >
               <FontAwesomeIcon icon={faPerson} size="lg" /> <p>About</p>
             </button>
@@ -105,7 +105,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('experience-container')}
-              className="cool-button text-gray-50 transition-all rounded-full"
+              className="cool-button text-gray-50 transition-all"
             >
               <FontAwesomeIcon icon={faCode}  /><p>Experience</p> 
             </button>
@@ -113,7 +113,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('footer-container')}
-              className="cool-button text-gray-50 transition-all rounded-full"
+              className="cool-button text-gray-50 transition-all"
             >
               <FontAwesomeIcon icon={faPhone} /><p>Contacts</p>
             </button>
