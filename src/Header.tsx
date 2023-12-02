@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faPerson, faCode, faPhone, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faPerson, faCode, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 function Header() {
