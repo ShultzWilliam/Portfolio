@@ -1,0 +1,9 @@
+.icon {
+    width: 35px;
+    height: fit-content;
+    padding: 5px;
+}
+
+.left-side, .right-side {
+    max-width: 950px;
+}
