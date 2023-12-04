@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import "./Footer.css";
 
 function Footer() {
     const emailAddress = 'william.shultz2017@gmail.com';
@@ -15,13 +16,13 @@ function Footer() {
               Contact Me
           </h2>
           <div className="button-list flex justify-center gap-2 lg:gap-x-20 mr-auto ml-auto mt-5 flex-wrap">
-            <a target="_blank" href="https://github.com/ShultzWilliam" className="contact-link text-gray-50  p-2 bg-orange-700 rounded-full px-5 lg:w-32 w-max hover:bg-blue-500 transition-all text-center">
+            <a target="_blank" href="https://github.com/ShultzWilliam" className="contact-link text-gray-50  p-2 wow rounded-full px-5 lg:w-32 w-max hover:bg-blue-500 transition-all text-center">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/wilshultz/" className="contact-link text-gray-50  p-2 bg-orange-700 rounded-full px-5 lg:w-32 w-max2 hover:bg-blue-500 transition-all text-center">
+            <a target="_blank" href="https://www.linkedin.com/in/wilshultz/" className="wow contact-link text-gray-50  p-2 rounded-full px-5 lg:w-32 w-max2 hover:bg-blue-500 transition-all text-center">
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
-            <a target="_blank" href={mailtoLink} className="contact-link text-gray-50  p-2 bg-orange-700 rounded-full lg:px-5 lg:w-32 w-max hover:bg-blue-500 transition-all text-center flex-wrap">
+            <a target="_blank" href={mailtoLink} className="wow contact-link text-gray-50  p-2 rounded-full lg:px-5 lg:w-32 w-max hover:bg-blue-500 transition-all text-center flex-wrap">
               <FontAwesomeIcon icon={faEnvelope} /> Email
             </a>
           </div>

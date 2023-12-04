@@ -32,7 +32,7 @@ function Hero() {
           <p className="text-3xl mt-3 text-center">Full Stack Web Developer</p>
         </article>
         <article>
-          <p className="p-4 text-center font-roboto font-300 text-2xl lg:text-2xl text-gray-500 mt-3 sm:mt-10 ">specializing in crafting websites people actually want to use</p>
+          <p className="p-4 text-center font-roboto font-300 text-2xl lg:text-2xl text-gray-500 mt-3 sm:mt-10 ">I love creating websites that people actively want to use</p>
         </article>
         <button className="mt-5 sm:mt-20 cursor-pointer" onClick={scrollDown}>
           <IoArrowDownCircleOutline className="animate-bounce h-10 transition-all duration-300 text-orange-500 hover:text-blue-500 w-auto" />

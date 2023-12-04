@@ -42,7 +42,7 @@ function Header() {
   return (
     <header
       id="header-container"
-      className={`fixed bottom-0 md:bottom-auto p-0 md:p-2 w-full transition-opacity z-10 ${
+      className={`fixed bottom-0 md:bottom-auto p-0 md:p-2 w-full transition-opacity z-10 bg-orange-500 ${
         isHeaderVisible ? 'opacity-100' : 'opacity-0'
       }`}
     >
@@ -52,7 +52,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('hero-container')}
-              className="cool-button bg-orange-700 hover:bg-blue-500 text-gray-50 transition-all px-5 rounded-full"
+              className="cool-button  text-gray-50 transition-all px-5 rounded-full"
             >
               <FontAwesomeIcon icon={faHouse} size="xs" /> Home
             </button>
@@ -60,7 +60,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('aboutme-container')}
-              className="cool-button bg-orange-700 hover:bg-blue-500 text-gray-50 transition-all px-5 rounded-full"
+              className="cool-button   text-gray-50 transition-all px-5 rounded-full"
             >
               <FontAwesomeIcon icon={faPerson} size="xs" /> About
             </button>
@@ -68,7 +68,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('experience-container')}
-              className="cool-button bg-orange-700 hover:bg-blue-500 text-gray-50 transition-all px-5 rounded-full"
+              className="cool-button  text-gray-50 transition-all px-5 rounded-full"
             >
               <FontAwesomeIcon icon={faCode} size="xs" /> Experience
             </button>
@@ -76,7 +76,7 @@ function Header() {
           <li>
             <button
               onClick={() => scrollToSection('footer-container')}
-              className="cool-button bg-orange-700 hover:bg-blue-500 text-gray-50 transition-all px-5 rounded-full"
+              className="cool-button  text-gray-50 transition-all px-5 rounded-full"
             >
               <FontAwesomeIcon icon={faPhone} size="xs" /> Contacts
             </button>
