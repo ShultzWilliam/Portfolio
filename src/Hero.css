@@ -1,11 +1,11 @@
 .fade-in {
-    opacity: 0;
+    opacity: 0.01;
     animation: fadeIn 1.5s ease-in-out forwards;
   }
   
   @keyframes fadeIn {
     from {
-      opacity: 0;
+      opacity: 0.01;
       transform: translateY(10px);
     }
     to {
