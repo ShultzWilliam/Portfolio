@@ -1,7 +1,5 @@
-import Header from './Header.tsx';
 import Hero from './Hero.tsx';
 import AboutMe from './AboutMe.tsx';
-import Experience from './Experience.tsx';
 import Navbar from './Navbar.tsx';
 import Footer from './Footer.tsx';
 

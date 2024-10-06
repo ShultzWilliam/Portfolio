@@ -1,13 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import "./Footer.css";
 
 function Footer() {
-    const emailAddress = 'william.shultz2017@gmail.com';
-    const subject = 'Email From Portfolio Site';
-    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
-
 
     return (
       <>
