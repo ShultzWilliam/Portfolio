@@ -29,7 +29,7 @@ function Hero() {
         <div className={`flex flex-col justify-center items-center ${isVisible ? 'fade-in' : 'fade-out'}`}>
         <article className=" font-roboto p-4 -mt-10 header-text flex flex-col text-slate-900">
           <p className="text-7xl lg:text-8xl"><span>I'm Wil Shultz</span></p>
-          <p className="text-3xl w mt-3">Software Engineer, Computer Science Grad Student, Tech Nerd</p>
+          <p className="text-3xl w mt-3">Software Engineer, Computer Science Grad Student, Possibly Human</p>
         </article>
 
         <button className="mt-5 sm:mt-20 cursor-pointer" onClick={scrollDown}>
