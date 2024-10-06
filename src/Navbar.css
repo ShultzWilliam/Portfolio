@@ -1,0 +1,30 @@
+.navbar-container {
+    position: relative;
+  }
+  
+  .hamburger-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+  }
+  
+  .menu {
+    width: 16rem;
+    height: 100vh;
+    background-color: #1a202c;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .menu-list {
+    margin-top: 4rem;
+  }
+  
+  .menu-list li {
+    margin-top: 2rem;
+  }
+  

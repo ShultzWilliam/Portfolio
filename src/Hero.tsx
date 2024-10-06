@@ -24,16 +24,14 @@ function Hero() {
     <>
       <section
         id="hero-container"
-        className="bg-gray-900 h-screen flex flex-col justify-center items-center"
+        className="bg-gray-100 h-screen flex flex-col justify-center items-center"
       >
         <div className={`flex flex-col justify-center items-center ${isVisible ? 'fade-in' : 'fade-out'}`}>
-        <article className="font-vidaloka p-4 -mt-10 header-text flex flex-col text-slate-50">
-          <p className="text-7xl lg:text-8xl text-center"><span>I'm Wil Shultz</span></p>
-          <p className="text-3xl mt-3 text-center">Full Stack Web Developer</p>
+        <article className=" font-roboto p-4 -mt-10 header-text flex flex-col text-slate-900">
+          <p className="text-7xl lg:text-8xl"><span>I'm Wil Shultz</span></p>
+          <p className="text-3xl w mt-3">Software Engineer, Computer Science Grad Student, Tech Nerd</p>
         </article>
-        <article>
-          <p className="p-4 text-center font-roboto font-300 text-2xl lg:text-2xl text-gray-500 mt-3 sm:mt-10 ">I love creating websites that people actively want to use</p>
-        </article>
+
         <button className="mt-5 sm:mt-20 cursor-pointer" onClick={scrollDown}>
           <IoArrowDownCircleOutline className="animate-bounce h-10 transition-all duration-300 text-orange-500 hover:text-blue-500 w-auto" />
         </button>
