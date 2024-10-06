@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         </button>
 
         <div
-          className={`menu w-full flex justify-center bg-gray-300 text-gray-50 fixed top-0 right-0 h-full  transform ${
+          className={`menu w-full md:w-1/4 flex justify-center bg-gray-300 text-gray-50 fixed top-0 right-0 h-full  transform ${
             isOpen ? 'translate-x-0' : 'translate-x-full'
           } transition-transform duration-300 ease-in-out`}
         >
