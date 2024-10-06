@@ -39,10 +39,10 @@ type JobProps = {
 
 const Job: React.FC<JobProps> = ({ date, jobTitle, companyName, companyLink, description, tools }) => (
   <div className="job flex flex-col  w-full text-2xl pt-5 pb-5">
-    <div className="left-side font-roboto text-gray-900 text-md leading-none">{date}</div>
+    <div className="left-side font-roboto text-gray-900 text-lg md:text-2xl leading-none">{date}</div>
     <div className="right-side">
-      <p className="job-title font-roboto text-3xl leading-loose">{jobTitle}</p>
-      <p className="company-name hover:text-orange-500 transition-all w-fit">
+      <p className="job-title font-roboto my-2 text-3xl">{jobTitle}</p>
+      <p className="company-name hover:text-orange-500 transition-all text-lg md:text-2xl w-fit">
         <a href={companyLink} target="_blank" rel="noopener noreferrer">
           {companyName}
         </a>
@@ -66,7 +66,7 @@ function AboutMe() {
           <h2 className="about-me-header text-gray-900 font-roboto text-6xl text-start">
             About Me
           </h2>
-          <div className="about-me-description text-gray-700  mt-5 text-2xl">
+          <div className="about-me-description text-gray-700  mt-5 text-lg md:text-2xl">
           I'm a software engineer with just over two years in web development and three years in tech. I've led full-stack web dev projects to build e-Commerce solutions for folks like Subaru, Nissan, Mazda, and more. I'm also a Master's Student in Computer Science at Georgia tech, where I'm constantly learning about artificial intelligence and its real-world applications.
           </div>
         </div>
