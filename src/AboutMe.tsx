@@ -61,7 +61,7 @@ const Job: React.FC<JobProps> = ({ date, jobTitle, companyName, companyLink, des
 function AboutMe() {
   return (
     <>
-      <section id="aboutme-container" className=" bg-gray-50 h-screen tracking-wide min-h-fit flex flex-wrap flex-row sm:flex-col p-5 lg:pt-16 lg:pb-16 lg:p-l10 lg:pr-10 justify-center items-center">
+      <section id="aboutme-container" className=" bg-gray-50 tracking-wide min-h-fit flex flex-wrap flex-col  p-5 lg:pt-16 lg:pb-16 lg:p-l10 lg:pr-10 justify-center items-center">
         <div className="left-side lg:w-2/3">
           <h2 className="about-me-header text-gray-900 font-roboto text-6xl text-start">
             About Me
