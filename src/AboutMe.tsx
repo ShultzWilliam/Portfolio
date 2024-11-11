@@ -1,6 +1,6 @@
 // Import necessary modules and styles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenRuler, faWandMagicSparkles, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faPenRuler, faWandMagicSparkles, faDatabase, faCode } from '@fortawesome/free-solid-svg-icons';
 import "./AboutMe.css";
 import React from 'react';
 import './Experience.css';
@@ -67,8 +67,9 @@ function AboutMe() {
             About Me
           </h2>
           <div className="about-me-description text-gray-700  mt-5 text-lg md:text-2xl">
-          I'm a software engineer with just over two years in web development and three years in tech. I've led full-stack web dev projects to build e-Commerce solutions for folks like Subaru, Nissan, Mazda, and more. I'm also a Master's Student in Computer Science at Georgia tech, where I'm constantly learning about artificial intelligence and its real-world applications.
-          </div>
+          I'm a Software and Data Engineer with over three years of experience in full-stack development, data automation, and optimization. 
+            I've led projects for clients like Subaru and Toyota, focusing on building scalable solutions that generate over $1M in yearly revenue. 
+            Currently, I'm pursuing a Master's in Computer Science at Georgia Tech, specializing in how we can improve interactions between human and AI agents.</div>
         </div>
         <div id="tools" className="right-side flex gap-5 flex-col w-full flex-wrap lg:flex-nowrap lg:w-2/3 justify-between mt-5">
           
@@ -100,6 +101,21 @@ function AboutMe() {
             })}
           </div>
 
+          {/* New Data & Analytics Section */}
+          <div className="data-analytics text-center w-full flex flex-col justify-start items-start">
+            <div className="about-me-section w-auto flex">
+              <div className="icon web-tools bg-orange-500 text-gray-50 mr-2 rounded-md mt-auto mb-auto">
+                <FontAwesomeIcon icon={faDatabase} />
+              </div>
+              <h3 className="font-roboto text-3xl leading-loose"> Data & Analytics</h3>
+            </div>
+            {generateListItems({ 
+              items: ['ETL Processes', 'Data Pipelines', 'Pandas', 'NumPy', 'Azure DevOps', 'SSIS', 'Python', 'Data Transformation']
+            })}
+          </div>
+
+
+
           {/* Other Technologies Section (Styled to Match Design Tools) */}
           <div className="other-tech text-center w-full flex flex-col justify-start items-start lg:pb-16">
             <div className="about-me-section w-auto flex">
@@ -122,6 +138,21 @@ function AboutMe() {
           Work Experience
         </h2>
         <div className="jobs-list flex items-start flex-col font-roboto w-full lg:w-full">
+        <Job
+          date="Oct. 2024 - Present"
+          jobTitle="Data Engineer"
+          companyName="First National Bank"
+          companyLink="https://www.fnb-online.com/"
+          description={[
+            'Optimized data workflows with .NET, MS SQL, SSIS, and Python, enhancing data reliability and efficiency',
+            'Designed and implemented ETL pipelines to aggregate, transform, and load large datasets, automating monthly reporting processes that support data-driven decision-making',
+            'Applied advanced analytics to streamline financial data processes, driving insights that influenced reporting accuracy and timeliness'
+          ]}
+          tools={['.NET', 'MS SQL', 'SSIS', 'Python', 'ETL', 'Data Automation']}
+        />
+
+
+
           <Job
             date="Sep. 2022 - Aug. 2024"
             jobTitle="Software Engineer"
