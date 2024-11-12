@@ -140,7 +140,7 @@ function AboutMe() {
         <div className="jobs-list flex items-start flex-col font-roboto w-full lg:w-full">
         <Job
           date="Oct. 2024 - Present"
-          jobTitle="Data Engineer"
+          jobTitle="Software Engineer"
           companyName="First National Bank"
           companyLink="https://www.fnb-online.com/"
           description={[
